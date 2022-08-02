@@ -9,8 +9,6 @@ RUN apt install -y \
 
 WORKDIR /app/
 
-USER root
-
 COPY file.txt .
 
 CMD [ "jq" ]

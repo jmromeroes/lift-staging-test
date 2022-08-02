@@ -1,15 +1,21 @@
 FROM ubuntu
 
+RUN top
+
+
+
 USER root
+
+RUN apt-get install python
 
 RUN apt install -y \
     curl \
     jq \
     less
 
-WORKDIR /app/
-
 USER root
+
+WORKDIR /app/
 
 COPY file.txt .
 
