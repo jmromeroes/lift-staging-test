@@ -16,7 +16,7 @@ TAG=$1
 CR=${2:-"docker.io"}
 REPO=${3:-"eclipse"}
 
-IMAGES="hono-adapter-amqp \
+IMAGES="hono-adapter-amqp.java \
         hono-adapter-coap \
         hono-adapter-http \
         hono-adapter-lora \
